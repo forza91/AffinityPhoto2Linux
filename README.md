@@ -22,6 +22,8 @@ The Affinity apps will be installed in <b>./affinity</b>
 
 Wine Repo: [James McDonnell/ElementalWarrior](https://gitlab.winehq.org/ElementalWarrior/wine)
 
+Branch: affinity-photo2-wine8.14
+
  💡 In case the branch is merged/deleted, here is a copy in this repo: ElementalWarrior-wine.tar.xz
 
  # Install Affinity Photo/Designer
