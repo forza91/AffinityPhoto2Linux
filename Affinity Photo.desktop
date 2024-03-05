@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Affinity Photo 2
+Exec=/YOUR_PATH/affinity/launcher.sh
+Path=/YOUR_PATH/affinity/
+Type=Application
+StartupNotify=true
+Icon=28F0_Photo.0
+StartupWMClass=photo.exe
+Terminal=false
+Hidden=false
