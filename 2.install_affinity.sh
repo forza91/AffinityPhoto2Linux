@@ -21,7 +21,7 @@ fi
 
 ##init wine environment
 chmod +x ./winetricks
-WINEPREFIX=$PWD/affinity ./winetricks dotnet48 corefonts renderer=vulkan
+WINEPREFIX=$PWD/affinity ./winetricks dotnet48 corefonts vcrun2015 renderer=vulkan
 WINEPREFIX=$PWD/affinity winecfg -v win11
 
 ##copy meta
