@@ -21,8 +21,12 @@ fi
 
 ##init wine environment
 chmod +x ./winetricks
-WINEPREFIX=$PWD/affinity ./winetricks dotnet48 corefonts vcrun2015 renderer=vulkan
+WINEPREFIX=$PWD/affinity ./winetricks --force -q dotnet48
+WINEPREFIX=$PWD/affinity ./winetricks corefonts renderer=vulkan
 WINEPREFIX=$PWD/affinity winecfg -v win11
+
+##Fix crash when exporting png/jpg, but it will crash when saving .afphoto
+#WINEPREFIX=$PWD/affinity ./winetricks vcrun2015
 
 ##copy meta
 tar -xvf ./WinMetadata.tar.xz
